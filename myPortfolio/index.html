@@ -1,0 +1,486 @@
+﻿<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="pt-br" dir="ltr"> <![endif]-->
+<html class="no-js" lang="pt-br" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--não apagar ou o apocalipse pode acontecer!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link href="css/socialFonts.css" rel="stylesheet" />
+    <link href="css/pushy.min.css" rel="stylesheet" />
+    <link href="css/preloader.min.css" rel="stylesheet" />
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body class="noScroll">
+    <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+    <!-- Add your site or application content here -->
+    <div class="spinner" id="preloader">
+        <p class="preLoaderText white">Carregando</p>
+        <p class="preLoaderMsg white">Ajustando os últimos componentes, por favor aguarde.</p>
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+    <!-- Pushy Menu -->
+    <nav class="pushy pushy-right text-center">
+        <div class="pushy-content">
+            <img src="img/LogoBruno.png" alt="Bruno Lollato" class="top50 bot80"/>
+            <ul>
+                <!-- Submenu -->
+                <li class="pushy-link" onclick="$('#sobre').animatescroll({ scrollSpeed: 2000, easing: 'easeOutElastic' })"><a href="#">Sobre</a></li>
+                <li class="pushy-link" onclick="$('#educacao').animatescroll({ scrollSpeed: 2000, easing: 'easeOutElastic' })"><a href="#">Formação</a></li>
+                <li class="pushy-link" onclick="$('#habilidades').animatescroll({ scrollSpeed: 2000, easing: 'easeOutElastic' })"><a href="#">Habilidades</a></li>
+                <li class="pushy-link" onclick="$('#portfolio').animatescroll({ scrollSpeed: 2000, easing: 'easeOutElastic' })"><a href="#">Portfólio</a></li>
+                <li class="pushy-link" onclick="$('#contato').animatescroll({ scrollSpeed: 2000, easing: 'easeOutElastic' })"><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <!-- Your Content -->
+    <div id="container">
+        <!-- Menu Button -->
+        <button class="menu-btn" id="btnOffCanvas">&#9776;</button>
+        <header id="home" class="blur">
+            <div class="row">
+                <div class="medium-12 columns text-center">
+                    <h4 class="white bolder" id="bruno">BRUNO</h4>
+                    <img src="img/LogoBruno.png" alt="Bruno Lollato" />
+                    <h4 class="white bolder" id="lollato">LOLLATO</h4>
+                    <p class="white">Resumo / CV</p>
+                    <i class="material-icons md-36 md-light handCursor" id="downArrow" onclick="$('#sobre').animatescroll({ scrollSpeed: 2000, easing: 'easeOutElastic' })">arrow_downward</i>
+                </div>
+            </div>
+        </header>
+        <div id="wrapper">
+            <section id="sobre">
+                <div>
+                    <div class="row bot70 reveal1">
+                        <div class="medium-5 columns">
+                            <h2 class="white">Sobre <strong>MIM</strong></h2>
+                            <p class="white">Descubra aqui um pouco mais sobre mim.</p>
+                        </div>
+                        <div class="medium-1 columns">
+                            <i class="material-icons md-48 md-light reveal3">person_pin</i>
+                        </div>
+                        <div class="medium-6 columns">
+                            <p class="white">
+                                Disponível para
+                                <span class="bold">FREELAS</span>
+                                , remoto ou local.<br>
+                                Também estou disponível para
+                                <span class="bold">contratação</span>,
+                                <br />veja minhas experiências mais abaixo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row bot40">
+                        <div class="medium-5 columns fade-in reveal2">
+                            <img src="http://placehold.it/387x310" alt="Alternate Text" typeof="float:Image" />
+                        </div>
+                        <div class="medium-7 columns">
+                            <p class="white reveal4">Bastante criativo desde criança, sempre gostei de desenhar, pintar e criar coisas, mas também sempre me interessei por resolver problemas, muitas vezes desmontando o que via pela frente. Por este motivo mais tarde vim a me interessar tanto pela parte gráfica quanto pelo que está por trás das telas.</p>
+                            <p class="white reveal5">Hoje me considero uma pessoa pró-ativa, com bom senso de humor, de fácil comunicação, sempre focado no desafio proposto. Continuar aprendendo é uma das minhas principais motivações.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-12 text-center columns reveal6">
+                            <a href="curriculo/BrunoLollato+AndradeProfile.pdf" class="button hollow secondary bold" title="Download Currículo">Download Currículo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="educacao">
+                <div>
+                    <div class="row bot70 reveal1">
+                        <div class="medium-5 columns">
+                            <h2>Minha <strong>FORMAÇÃO</strong></h2>
+                            <p>Aqui você pode saber um pouco sobre minha formação.</p>
+                        </div>
+                        <div class="medium-1 columns">
+                            <i class="material-icons md-48 md-dark reveal3">school</i>
+                        </div>
+                        <div class="medium-6 columns">
+                            <p>
+                                Disponível para
+                                <span class="bold">FREELAS</span>
+                                , remoto ou local.<br>
+                                Também estou disponível para
+                                <span class="bold">contratação</span>,
+                                <br />veja minhas experiências mais abaixo.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="formacoes" class="bot70">
+                        <div class="row">
+                            <div class="columns formacoes1">
+                                <div class="medium-2 columns text-center">
+                                    <div class="data">
+                                        <h5 class="white">Janeiro<br /><span>2017</span></h5>
+                                    </div>
+                                </div>
+                                <div class="medium-10 columns">
+                                    <h3>Análise e desenvolvimento de sistemas - UniFran</h3>
+                                    <p>Desenvolvimento, análise, planejamento, implementação e atualização sistemas de informação.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="columns formacoes2">
+                                <div class="medium-2 columns text-center">
+                                    <div class="data">
+                                        <h5 class="white">Junho<br /><span>2016</span></h5>
+                                    </div>
+                                </div>
+                                <div class="medium-10 columns">
+                                    <h3>Lógica de Programação - Curso em video</h3>
+                                    <p>O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="columns formacoes3">
+                                <div class="medium-2 columns text-center">
+                                    <div class="data">
+                                        <h5 class="white">Junho<br /><span>2008</span></h5>
+                                    </div>
+                                </div>
+                                <div class="medium-10 columns">
+                                    <h3>Teoria das Cores - Immaginari</h3>
+                                    <p>O Workshop de Teoria das Cores desenvolve com os participantes as principais leis de harmonia, mistura e aplicação das cores em projetos artísticos, gráficos e de multimeios.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="columns formacoes4">
+                                <div class="medium-2 columns text-center">
+                                    <div class="data">
+                                        <h5 class="white">Janeiro<br /><span>2008</span></h5>
+                                    </div>
+                                </div>
+                                <div class="medium-10 columns">
+                                    <h3>Design Gráfico - Immaginari</h3>
+                                    <p>O Design Gráfico idealiza instrumentos de comunicação, de criação de imagens e de linguagem que sejam eficazes ao transmitir mensagens e valores. É uma profissão de expressão e criação. Treinado para dominar a linguagem visual em todas as suas dimensões.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="medium-12 text-center">
+                            <h3 class="inte1">Meus <strong>Interesses</strong></h3>
+                        </div>
+                        <div class="row gutter-medium" id="interesses">
+                            <div class="small-12 medium-4 large-4 columns text-center inte2">
+                                <div>
+                                    <i class="material-icons md-48 md-green reveal3">settings_power</i>
+                                    <h5 class="bold">Tecnologia</h5>
+                                    <p>Sempre fui facinado por tudo que é tecnológico, trabalhar com isso me proporciona conhecer cada vez mais tecnologias novas.</p>
+                                </div>
+                            </div>
+                            <div class="small-12 medium-4 large-4 columns text-center inte3">
+                                <div>
+                                    <i class="material-icons md-48 md-green reveal3">code</i>
+                                    <h5 class="bold">Programação</h5>
+                                    <p>Saber o que acontece por tras das telas é muito legal, mas aprender a fazer as coisas funcionarem é muito mais, tento sempre adiquirir conhecimento sobre back-end, não apenas voltado para web, mas para todo tipo de aplicação, principalmente para dispositivos móveis.</p>
+                                </div>
+                            </div>
+                            <div class="small-12 medium-4 large-4 columns text-center inte4">
+                                <div>
+                                    <i class="material-icons md-48 md-green reveal3">videogame_asset</i>
+                                    <h5 class="bold">Games</h5>
+                                    <p>Nem só de trabalho vive o homem(rs), por isso ter um bom lazer é fundamental. Como um bom nerd sou um grande fã de games.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="habilidades">
+                <div>
+                    <div class="row bot70 reveal1">
+                        <div class="medium-5 columns">
+                            <h2>Hab<strong>ILIDADES</strong></h2>
+                            <p>Veja quais são minhas competências.</p>
+                        </div>
+                        <div class="medium-1 columns">
+                            <i class="material-icons md-48 md-dark reveal3">gamepad</i>
+                        </div>
+                        <div class="medium-6 columns">
+                            <p>
+                                Nem só de
+                                <span class="bold">HTML5 e CSS3</span><br />
+                                vive o desenvoldor front-end.<br>
+                                Conhecer outras <span class="bold">Tecnologias </span>
+                                é imprescindível.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row" id="skills">
+                        <div class="medium-3 columns text-center skills">
+                            <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>HTML5</h4>
+                            <p>Avançado.</p>
+                        </div>
+                        <div class="medium-3 columns text-center skills">
+                            <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>CSS3</h4>
+                            <p>Avançado.</p>
+                        </div>
+                        <div class="medium-3 columns text-center skills">
+                            <span class="chart" data-percent="80">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>JavaScript</h4>
+                            <p>Intermediário.</p>
+                        </div>
+                        <div class="medium-3 columns text-center  skills">
+                            <span class="chart" data-percent="30">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>PHP</h4>
+                            <p>Básico.</p>
+                        </div>
+                        <div class="medium-3 columns text-center  skills">
+                            <span class="chart" data-percent="55">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>JAVA/C#</h4>
+                            <p>Intermediário.</p>
+                        </div>
+                        <div class="medium-3 columns text-center  skills">
+                            <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>Inglês</h4>
+                            <p>Fluente.</p>
+                        </div>
+                        <div class="medium-3 columns text-center  skills">
+                            <span class="chart" data-percent="75">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>MySQL</h4>
+                            <p>Intermediário.</p>
+                        </div>
+                        <div class="medium-3 columns text-center  skills">
+                            <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                            </span>
+                            <h4>Photoshop</h4>
+                            <p>Avançado.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div>
+                    <div class="row bot70 reveal1">
+                        <div class="medium-5 columns">
+                            <h2 class="white">Meu <strong>PORTFÓLIO</strong></h2>
+                            <p class="white">Mão na massa! Veja alguns de meus trabalhos.</p>
+                        </div>
+                        <div class="medium-1 columns">
+                            <i class="material-icons md-48 md-light reveal3">computer</i>
+                        </div>
+                        <div class="medium-6 columns">
+                            <p class="white">
+                                Aqui você encontra
+                                <span class="bold">alguns de meus trampos</span>,
+                                <br /> fique avontade para degustá-los.<br>
+                                <span class="bold">Projetos pessoais</span>
+                                também fazem parte do portfólio.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns bot50 port1">
+                            <div class="portImagem">
+                                <div class="portHover">
+                                    <i class="icon zoom+"></i>
+                                </div>
+                                <img src="http://placehold.it/400" alt="Alternate Text" />
+                            </div>
+                            <div class="infoProjeto text-center top10">
+                                <h5 class="ttlProjeto bolder white">Título do Projeto</h5>
+                                <p class="white">Front-End</p>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns bot50 port1">
+                            <div class="portImagem">
+                                <div class="portHover">
+                                    <i class="icon zoom+"></i>
+                                </div>
+                                <img src="http://placehold.it/400" alt="Alternate Text" />
+                            </div>
+                            <div class="infoProjeto text-center top10">
+                                <h5 class="ttlProjeto bolder white">Título do Projeto</h5>
+                                <p class="white">Front-End</p>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns bot50 port1">
+                            <div class="portImagem">
+                                <div class="portHover">
+                                    <i class="icon zoom+"></i>
+                                </div>
+                                <img src="http://placehold.it/400" alt="Alternate Text" />
+                            </div>
+                            <div class="infoProjeto text-center top10">
+                                <h5 class="ttlProjeto bolder white">Título do Projeto</h5>
+                                <p class="white">Front-End</p>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns bot50 port1">
+                            <div class="portImagem">
+                                <div class="portHover">
+                                    <i class="icon zoom+"></i>
+                                </div>
+                                <img src="http://placehold.it/400" alt="Alternate Text" />
+                            </div>
+                            <div class="infoProjeto text-center top10">
+                                <h5 class="ttlProjeto bolder white">Título do Projeto</h5>
+                                <p class="white">Front-End</p>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns bot50 port1">
+                            <div class="portImagem">
+                                <div class="portHover">
+                                    <i class="icon zoom+"></i>
+                                </div>
+                                <img src="http://placehold.it/400" alt="Alternate Text" />
+                            </div>
+                            <div class="infoProjeto text-center top10">
+                                <h5 class="ttlProjeto bolder white">Título do Projeto</h5>
+                                <p class="white">Front-End</p>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns bot50 port1">
+                            <div class="portImagem">
+                                <div class="portHover">
+                                    <i class="icon zoom+"></i>
+                                </div>
+                                <img src="http://placehold.it/400" alt="Alternate Text" />
+                            </div>
+                            <div class="infoProjeto text-center top10">
+                                <h5 class="ttlProjeto bolder white">Título do Projeto</h5>
+                                <p class="white">Front-End</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="social">
+                <div class="row bot40">
+                    <h4 class="white bold text-center social1">SOCIAL LINKS</h4>
+                </div>
+                <div class="row text-center">
+                    <a target="_blank" href="https://goo.gl/noi1v0" class="social social2"><i class="icon-facebook"></i></a>
+                    <a target="_blank" href="https://goo.gl/HrrOGA" class="social social2"><i class="icon-google-plus"></i></a>
+                    <a target="_blank" href="#" class="social social2"><i class="icon-behance"></i></a>
+                    <a target="_blank" href="https://goo.gl/4p0HiO" class="social social2"><i class="icon-linkedin"></i></a>
+                    <a target="_blank" href="https://goo.gl/TZUtur" class="social social2"><i class="icon-spotify"></i></a>
+                </div>
+            </section>
+            <section id="contato">
+                <div>
+                    <div class="row bot70 reveal1">
+                        <div class="medium-5 columns">
+                            <h2>Meus <strong>CONTATOS</strong></h2>
+                            <p>Não fique acanhado, entre em contato comigo.</p>
+                        </div>
+                        <div class="medium-1 columns">
+                            <i class="material-icons md-48 md-dark reveal3">comment</i>
+                        </div>
+                        <div class="medium-6 columns">
+                            <p>
+                                Ficou interessado em
+                                <span class="bold">meus serviços?</span>
+                                <br />Mande um email para mim,<br />estou disponível para
+                                <span class="bold">FREELAS e contratação.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row bot70">
+                        <div class="large-4 medium-4 columns cont1">
+                            <div class="text-center contInfo">
+                                <i class="material-icons md-48 md-wine">person_pin_circle</i>
+                                <h5 class="bold">Endereço</h5>
+                                <p>Eduardo Furlani, 225</p>
+                                <p>Batatais - SP</p>
+                            </div>
+                        </div>
+                        <div class="large-4 medium-4 columns cont2">
+                            <div class="text-center contInfo">
+                                <i class="material-icons md-48 md-wine">mail_outline</i>
+                                <h5 class="bold">Email</h5>
+                                <p>lollato7@gmail.com</p>
+                                <p><br /></p>
+                            </div>
+                        </div>
+                        <div class="large-4 medium-4 columns cont3">
+                            <div class="text-center contInfo">
+                                <i class="material-icons md-48 md-wine">phone_android</i>
+                                <h5 class="bold">Cel/What's</h5>
+                                <p>(16)99282-8395</p>
+                                <p>(16)99142-8299</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form name="contForm" enctype="multipart/form-data" action="" method="post" accept-charset="utf-8" >
+                            <div class="large-6 columns form">
+                                <input type="text" class="input" id="nome" name="nome" value="" required="required" placeholder="Nome" />
+                            </div>
+                            <div class="large-6 columns form">
+                                <input type="email" class="input" id="email" name="email" value="" required="required" placeholder="Email" />
+                            </div>
+                            <div class="large-12 columns form">
+                                <input type="text" class="input" id="assunto" name="assunto" value="" required="required" placeholder="Assunto" />
+                            </div>
+                            <div class="large-12 columns form">
+                                <textarea id="msg" class="input" name="mensagem" required="required" placeholder="Mensagem" cols="60" rows="10"></textarea>
+                            </div>
+                            <div class="large-12 columns form">
+                                <input disabled type="submit" id="enviar" name="enviar" value="Enviar" class="button success bold right" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="row">
+                <i class="material-icons md-24 md-light handCursor text-center up" onclick="$('#home').animatescroll({ scrollSpeed: 2000, easing: 'easeInOutCirc' })" id="upScroll">arrow_upward</i>
+                <h6 class="white bold text-center">Desenvolvido por Bruno Lollato. Todos os direitos reservados - 2017 ©</h6>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="js/vendor/what-input.js" type="text/javascript"></script>
+    <script src="js/vendor/foundation.js" type="text/javascript"></script>
+    <script src="js/app.min.js" type="text/javascript"></script>
+    <script src="js/vendor/jquery.easypiechart.js" type="text/javascript"></script>
+    <script src="js/jquery.lettering.min.js" type="text/javascript"></script>
+    <script src="js/circletype.min.js" type="text/javascript"></script>
+    <script src="js/scrollreveal.min.js" type="text/javascript"></script>
+    <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script src="js/animatescroll.min.js" type="text/javascript"></script>
+    <script src="js/pushy.min.js" type="text/javascript"></script>
+</body>
+</html>

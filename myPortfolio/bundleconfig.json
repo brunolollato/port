@@ -1,0 +1,50 @@
+[
+  {
+    "outputFileName": "js/app.min.js",
+    "inputFiles": [
+      "js/app.js"
+    ]
+  },
+  {
+    "outputFileName": "css/app.min.css",
+    "inputFiles": [
+      "css/app.css"
+    ]
+  },
+  {
+    "outputFileName": "css/foundation.min.css",
+    "inputFiles": [
+      "css/foundation.css"
+    ]
+  },
+  {
+    "outputFileName": "css/normalize.min.css",
+    "inputFiles": [
+      "css/normalize.css"
+    ]
+  },
+  {
+    "outputFileName": "css/preloader.min.css",
+    "inputFiles": [
+      "css/preloader.css"
+    ]
+  },
+  {
+    "outputFileName": "css/pushy.min.css",
+    "inputFiles": [
+      "css/pushy.css"
+    ]
+  },
+  {
+    "outputFileName": "css/socialFonts.min.css",
+    "inputFiles": [
+      "css/socialFonts.css"
+    ]
+  },
+  {
+    "outputFileName": "js/jquery.lettering.min.js",
+    "inputFiles": [
+      "js/jquery.lettering.js"
+    ]
+  }
+]
